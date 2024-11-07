@@ -33,4 +33,7 @@ while redo:
     else:
         print("Only choose up to 4 toppings please")
 
-print("The cost of your pizza is", price_toppings + pizza_price, "without tax")
+total_price = price_toppings + pizza_price
+print("The cost of your pizza is", total_price, "without tax")
+taxed_price = round(total_price * 1.13, 2)
+print("The cost of your pizza with tax is $", taxed_price)
