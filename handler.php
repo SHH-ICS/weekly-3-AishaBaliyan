@@ -5,7 +5,7 @@ define("PRICE_TOPPING_1", 1.00);
 define("PRICE_TOPPING_2", 1.75);
 define("PRICE_TOPPING_3", 2.50);
 define("PRICE_TOPPING_4", 3.35);
-define("TAX_RATE", 0.13); // 13% HST
+define("TAX_RATE", 0.13); 
 
 $size = strtolower(trim($_POST['size']));
 $toppings = intval($_POST['toppings']);
