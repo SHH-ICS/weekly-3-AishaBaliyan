@@ -42,7 +42,7 @@ $subtotal = $base_price + $topping_price;
 $tax = $subtotal * TAX_RATE;
 $total_cost = $subtotal + $tax;
 
-echo "<h2>Order Summary</h2>";
+echo "<h2> Your payment will be: </h2>";
 echo "Pizza Size: " . ucfirst($size) . "<br>";
 echo "Number of Toppings: $toppings<br>";
 echo "Subtotal: $" . number_format($subtotal, 2) . "<br>";
